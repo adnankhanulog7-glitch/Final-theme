@@ -1,0 +1,31 @@
+Build a professional single-page portfolio website for a YouTube-focused agency called ShlGrow, based on the original MarkitUp content marketing agency website but specialized for YouTube growth. Use the structure and design from the provided index HTML files, with a dark navy (#0a0f1b), teal, and gold (#f4d03f) color scheme, Montserrat for headings, Lato for body text, Tailwind CSS for styling, React for interactivity, and animations like fade-in-up, pulse, and hover-scale.
+
+Key sections and content:
+- **Header**: Parallax background with YouTube-studio image, gradient-shift animation. Headline: "ShlGrow - Your Ultimate YouTube Growth Partner". Subheadline: "We’re a passionate team of YouTube experts helping creators, influencers, and brands dominate with 360-degree management, scripting, editing, and growth strategies." CTA button: "🚀 Book Our Free Consult Now" linking to #contact.
+
+- **About**: Headline "Who We Are". Description: Founded in 2023 by ex-YouTube experts from US, Europe, Asia. Offices in New York, London, Singapore. Team cards with bios: Alex Rivera (CEO), Mia Chen (Scripting), Jordan Hale (Editing), Sofia Patel (Growth). Certifications: YouTube Analytics, Google Ads.
+
+- **Stats**: "50+ International Channels Launched", "1,500+ Videos Scripted, Edited & Optimized".
+
+- **Services**: Headline "Our Services". Grid with cards: Comprehensive YouTube Management, Tailored for International Creators & Brands, Custom Thumbnails & Channel Art, Scripting & Research from Scratch, YouTube Ads & Cross-Promotion, Personalized Strategy Consulting.
+
+- **Why YouTube?**: Headline "Why Start on YouTube? (Even If You're Not There Yet)". Persuasive text on global reach, monetization, long-term growth, audience loyalty, data-driven success. Grid with cards for each point.
+
+- **Portfolio**: Headline "Our Portfolio". Grid with cards from MarkitUp but YouTube-focused: Sanjay’s YouTube SEO Tutorial, Luru’s Product Launch Video, Ishan’s Marvel Fan Theory Thumbnail, Ishan’s Coaching Industry Exposé, Harnoor’s Disney Adventure Vlog, Vauld x Alfa Romeo Promo Video, UAbility’s Online Business Guide, Kushal’s Scam Exposé Thumbnail, Kushal’s SRK Documentary Thumbnail. Use placeholder images (Unsplash) styled with thumbnail-overlay play button on hover. Include descriptions with metrics like "1M views".
+
+- **Testimonials**: Headline "What Our Global Clients Say". Grid with cards from global clients: Elena Vargas (TikTok), Li Wei (Douyin), Marcus Klein (Instagram), Anya Petrova (VK).
+
+- **Why Choose Us**: Headline "Why ShlGrow is the Best Choice". Persuasive text and grid with cards: Specialized Expertise, From Scratch to Success, Proven Track Record, Client-Centric Approach, Global Focus, Risk-Free Guarantee.
+
+- **Contact**: Headline "Ready to Go Global on YouTube?". Include embedded form with fields: Name (required), Email (required), Phone (optional), Channel URL (optional), Message. Add checkbox: "I agree to the Privacy Policy" linking to /privacy-policy. Include email, phone (with tel: links), address, social media icons (YouTube, Instagram, LinkedIn). Footer: "Privacy Policy | Certified in YouTube Analytics & Google Ads". CTA button: "Submit Your Audit Request".
+
+- **Privacy Policy Page**: Create a separate /privacy-policy.html page with sections on data collection (form fields), usage, storage (Netlify/Google Sheets), user rights (GDPR/CCPA), cookies (Google Analytics), and contact info. Match the site's design.
+
+Additional features:
+- Use Google Analytics with tracking ID G-XYZ (placeholder).
+- Add CookieBot for cookie consent popup linking to /privacy-policy.
+- Ensure GDPR/CCPA compliance with consent checkbox in form.
+- Make the site responsive, with parallax header and animations.
+- Deploy to Netlify with form submissions handled by Netlify Forms.
+
+Generate the complete code for index.html and privacy-policy.html, ready to deploy on Netlify. Ensure the form is embedded and functional without external redirects.
